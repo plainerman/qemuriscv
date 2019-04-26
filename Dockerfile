@@ -9,6 +9,3 @@ RUN rm stage4-disk.img.xz
 COPY start.sh /start.sh
 
 RUN chmod +x /start.sh
-
-ENTRYPOINT [ "/bin/bash" ]
-CMD [ "/start.sh" ]
